@@ -5,10 +5,9 @@ import web from "../images/042.jpg";
 const Common = (props) => {
     return (
         <>
-            <section id="header" className="">
-                <div className="container">
+                <div className="container mb-5" id="header">
                     <div className="row">
-                        <div className="col-md-6 text-center mb-3">
+                        <div className="col-md-6 text-center mb-3 d-flex flex-column justify-content-center">
                             <h2>
                                {props.name}
                             </h2>
@@ -24,7 +23,6 @@ const Common = (props) => {
                         </div>
                     </div>
                 </div>
-            </section>
         </>
     );
 };

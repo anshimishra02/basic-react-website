@@ -4,7 +4,7 @@ import '../styles/destinations.css';
 const Destinations = () => {
     return (
         <>
-            <div class="container destination-container">
+            <div class="container destination-container" style={{marginTop:'5rem'}}>
                 <div className="w-100 py-5 my-3 destination-banner">
                     <h1 className='text-center'>Welcome to my Destinations page</h1>
                 </div>
