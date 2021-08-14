@@ -1,12 +1,13 @@
 import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Destinations from './Destinations';
-import Navbar from './Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Destinations from './components/Destinations';
+import Navbar from './components/Navbar';
 import { Switch,Route, Redirect } from "react-router-dom";
+import Footer from './components/Footer';
 
 
 const App =() => {
@@ -21,6 +22,7 @@ const App =() => {
             <Redirect to="/" /> 
             <Home />
         </Switch>
+        <Footer />
         </>
     );
 };

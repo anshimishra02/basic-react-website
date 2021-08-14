@@ -1,0 +1,19 @@
+.footer-container hr{
+    margin: 0;
+}
+.footer-container .upper{
+    background-color: #242424;
+}
+.footer-container .lower{
+    color: white;
+    background-color:#000000;
+}
+.footer-container .social-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-container .social-links a{
+    color: white;
+    font-size: 2rem;
+}
