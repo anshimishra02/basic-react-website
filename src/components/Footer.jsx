@@ -8,7 +8,7 @@ function Footer() {
         <>
             <footer class="footer-container">
                 <div class="upper">
-                    <div class="row">
+                    <div class="row m-0">
                         <div class="col-md-12 py-5">
                             <div class="social-links">
                                 <a href="https://www.facebook.com/anshi.mishra.7355" target="_blank" className=''><FaFacebook /></a>
